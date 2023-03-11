@@ -1,0 +1,91 @@
+/* Set up some basic styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.logo {
+	height: 40px;
+}
+
+.connect-btn,
+.disconnect-btn {
+	background-color: #1c1c1c;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.connect-btn:hover,
+.disconnect-btn:hover {
+	background-color: #2d2d2d;
+}
+
+.account-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.user-avatar {
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.account-name {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.account-address {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 0;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.menu a {
+	display: inline-block;
+	padding: 10px;
+	color: #666;
+	text-decoration: none;
+}
+
+.menu a.active,
+.menu a:hover {
+	color: #1c1c1c;
+}
+
+.menu a i {
+	margin-right: 5px;
+}
+
+.content {
+	background-color: #f4f4f
